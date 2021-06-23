@@ -4,7 +4,6 @@ var roomNum = document.getElementById("roomnumber");
 var btnGo = document.getElementById("BtnGo");
 var localVideo = document.getElementById("local-video");
 var remoteVideo = document.getElementById("local-video");
-var io = require("socket.io");
 var roomNumber;
 var localStream;
 var remoteStream;
