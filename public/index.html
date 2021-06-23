@@ -12,15 +12,15 @@
     <div id="selectRoom">
         <label>Type The Room Number: </label>
         <input id="roomnumber" type="text">
-        <button>Go To The Room</button>
+        <button id="BtnGo">Go To The Room</button>
     </div>
     <div id="consultingRoom" style="display: none;">
-        <video id="local video" autoplay></video>
+        <video id="local-video" autoplay></video>
         <video id="RemoteVideo" autoplay></video>
 
     </div>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="client.js"></script>
+    <script src="../node_modules/socket.io/client-dist/socket.io.js"></script>
+    <script src="./client.js"></script>
 </body>
 
 </html>
